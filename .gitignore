@@ -1,0 +1,13 @@
+#official python gitignore
+# Byte-compiled / optimized / DLL files
+__pycache__/
+venv/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+config.py

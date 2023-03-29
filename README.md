@@ -24,7 +24,7 @@ cd flask_mssql_web_app
 ```
 3. Create a virtual environment: 
 ```{python}
-python -m venv env
+python -m venv venv
 ```
 4. Activate the virtual environment:
  * Windows: 

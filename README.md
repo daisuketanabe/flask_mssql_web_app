@@ -29,11 +29,11 @@ python -m venv venv
 4. Activate the virtual environment:
  * Windows: 
  ```{python}
- env\Scripts\activate.bat
+ venv\Scripts\activate.bat
  ```
  * Unix/Mac: 
  ```{python} 
- source env/bin/activate
+ source venv/bin/activate
  ```
 5. Install dependencies: 
 ```{python}

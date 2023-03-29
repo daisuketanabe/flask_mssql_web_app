@@ -37,7 +37,7 @@ python -m venv env
  ```
 5. Install dependencies: 
 ```{python}
- pip install -r requirement.txt
+ pip install -r requirements.txt
  ```
 6. Create a database in MSSQL using __DemoDB.sql file__
 7. Update the database configuration in config.py with your MSSQL database details.

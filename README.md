@@ -15,7 +15,9 @@ This is a sample Python project that uses Flask and MSSQL to build a web applica
   * https://learn.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studio
 ## Installation ##
 1. Clone the repository: 
+```{python}
 git clone https://github.com/daisuketanabe/flask_mssql_web_app.git
+```
 2. Navigate to the project directory:
 ```{python} 
 cd flask_mssql_web_app
@@ -35,7 +37,7 @@ python -m venv env
  ```
 5. Install dependencies: 
 ```{python}
- pip install -r requirements.txt
+ pip install -r requirement.txt
  ```
 6. Create a database in MSSQL using __DemoDB.sql file__
 7. Update the database configuration in config.py with your MSSQL database details.

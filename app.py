@@ -19,7 +19,7 @@ else:
         DRIVER={DRIVER};\
         SERVER={SERVER};\
         DATABASE={DATABASE};\
-        TRUSTED_CONNECTOIN={TRUSTED_CONNECTOIN}'
+        TRUSTED_CONNECTION={TRUSTED_CONNECTION}'
 
 def execute_query(query, params=None, method='GET'):
     ''' Define a helper function to execute SQL queries '''

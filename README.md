@@ -26,6 +26,10 @@ cd flask_mssql_web_app
 ```{python}
 python -m venv venv
 ```
+or
+```{python}
+python3 -m venv venv
+```
 4. Activate the virtual environment:
  * Windows: 
  ```{python}
@@ -37,8 +41,11 @@ python -m venv venv
  ```
 5. Install dependencies: 
 ```{python}
- pip install -r requirements.txt
- ```
+python install.py
+```
+```{python}
+python3 install.py
+```
 6. Create a database in MSSQL using __DemoDB.sql file__
 7. Update the database configuration in config.py with your MSSQL database details.
 ## Usage ##
@@ -49,13 +56,17 @@ python -m venv venv
 ```{python}
 python app.py
 ```
+or
+```{python}
+python3 app.py
+```
 3. Open your web browser and go to http://localhost:5000 to view the app.
 ## Project Structure ##
 * app.py: Main Flask application file.
+* install.py: install dependencies.
 * config.py: Configuration file for the app, including database details
 * sample_config.py: Sample config.py file
 * DemoDB.sql: Sample MSSQL Dump file.
-* requirements.txt: List of Python dependencies.
 * templates/: Directory containing HTML templates for the app.
 * README.md: This file.
 ## Contribution ##

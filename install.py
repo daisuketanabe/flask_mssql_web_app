@@ -10,8 +10,7 @@ _all_ = [
     'Werkzeug>=2.2.3',
 ]
 
-windows = ["pyodbc==4.0.35",]
-linux = ["pyodbc==4.0.35",]
+others = ["pyodbc==4.0.35",]
 darwin = ["pyodbc==4.0.34"]
 
 def install(packages):
@@ -23,9 +22,7 @@ if __name__ == '__main__':
     from sys import platform
 
     install(_all_) 
-    if platform == 'windows':
-        install(windows)
-    if platform.startswith('linux'):
-        install(linux)
     if platform == 'darwin': # MacOS
         install(darwin)
+    else:
+        install(others)

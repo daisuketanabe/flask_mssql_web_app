@@ -13,7 +13,7 @@ if platform().startswith('mac'):
         SERVER={SERVER};\
         DATABASE={DATABASE};\
         UID={USERNAME};\
-        PWD={PASSWORD}'
+        PWD={PASSWORD};'
 else:
     connection_string = f'\
         DRIVER={DRIVER};\
